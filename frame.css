@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family:'Josefin Sans','sans-serif';
-    background: linear-gradient(to bottom right, rgb(54, 52, 52),rgb(34, 33, 33));
+    background: linear-gradient(to bottom right, rgb(245, 6, 6),rgb(45, 144, 226));
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -27,6 +27,7 @@ nav ul li {
     padding:10px 20px;
 }
 nav ul li a{
+    font-size: 20px;
     color: white;
     text-decoration: none;
     transition: .3s;
@@ -55,28 +56,35 @@ button:hover{
     cursor: pointer;
 }
 .content{
-    margin-top: 10%;
-    max-width: 600px;
+    margin-top: 0%;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
 }
 .content h1{
-    margin-left:10%;
+    margin-top: 10%;
     font-size: 25px;
     color: rgb(255, 255, 255);
     font-weight: 600;
 }
 .content p{
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 5%;
     font-size: 50px;
     color: rgb(76, 193, 240);
     font-weight: 600;
 }
-.image img{
-    height: 400px;
-    display: block;
+.btn{
+    font-family: 'consolas';
+    font-size: 20px;
+    color: #fff;
+    margin: 5px;
+    padding: 7px 22px;
+    text-decoration: none;
+    border: 1px solid coral;
+    border-radius: 25px;
 }
-.image {
-    position:absolute;
-    bottom: 0;
-    right: 10%;
+.btn:hover{
+    background-color: coral;
+    
 }
