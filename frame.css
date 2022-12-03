@@ -33,25 +33,23 @@ nav ul li a{
     transition: .3s;
 }
 nav ul li a:hover{
-    color: #ea1538;
-    
-    transform: scale(1.3);
-    
+    color: #252320;
 }
 .logo{
     height: 70px;
 }
-button{
+.button{
     border: none;
     background: rgb(11, 253, 11);
     padding: 12px 30px;
     border-radius: 30px;
     color: white;
     font-size: 15px;
-    font-weight: bold;
+    text-decoration: none;
+    font-weight: bold; 
     transition: .4s;
 }
-button:hover{
+.button:hover{
     transform: scale(1.3);
     cursor: pointer;
 }
@@ -59,13 +57,14 @@ button:hover{
     margin-top: 0%;
     max-width: 100%;
     align-items: center;
-    text-align: center;
+    text-align: center; 
 }
 .content h1{
     margin-top: 10%;
     font-size: 25px;
     color: rgb(255, 255, 255);
     font-weight: 600;
+    transition: .5s;
 }
 .content p{
     margin-top: 2%;
@@ -73,18 +72,61 @@ button:hover{
     font-size: 50px;
     color: rgb(76, 193, 240);
     font-weight: 600;
+    transition: .5s;
 }
 .btn{
     font-family: 'consolas';
-    font-size: 20px;
+    font-size: 20px;  
     color: #fff;
     margin: 5px;
     padding: 7px 22px;
-    text-decoration: none;
     border: 1px solid coral;
     border-radius: 25px;
+    text-decoration: none;
+    transition: .2s;
 }
 .btn:hover{
-    background-color: coral;
-    
+    background:coral;
+    transform: scale(1);
+}
+.abt{
+    text-align: center;
+    padding: 5%;
+    color: rgb(13, 190, 235);
+    letter-spacing: 5px;
+    transition: .4s;
+}
+.schooling{
+    border: solid 2px white;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 5%;
+}
+.schooling h3{
+    color: rgb(245, 188, 1);
+    letter-spacing: 1px;
+}
+.schooling p a{
+    text-decoration: none;
+    color: black;
+}
+.college{
+    border: solid 2px white;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 5%;
+}
+.college h3{
+    color: rgb(245, 188, 1);
+    letter-spacing: 1px;
+}
+.addcource{
+    border: solid 2px white;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 5%;
+}
+.addcource h3{
+    color: rgb(245, 188, 1);
+    letter-spacing: 1px;
 }
