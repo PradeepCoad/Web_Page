@@ -86,12 +86,12 @@ nav ul li a:hover{
     transition: .2s;
 }
 .btn:hover{
-    background:coral;
-    transform: scale(1);
+    background:rgb(255, 255, 255);
+    color: coral;
 }
 .abt{
     text-align: center;
-    padding: 5%;
+    padding: 2%;
     color: rgb(13, 190, 235);
     letter-spacing: 5px;
     transition: .4s;
@@ -99,8 +99,9 @@ nav ul li a:hover{
 .schooling{
     border: solid 2px white;
     padding: 15px;
-    border-radius: 20px;
-    margin: 5%;
+    border-radius: 30px;
+    margin:5%;
+    transition: .2s;
 }
 .schooling h3{
     color: rgb(245, 188, 1);
@@ -113,4 +114,22 @@ nav ul li a:hover{
 .sublist{
     border:none;
     padding-left:30px;
+}
+.bx{
+    text-align: center;
+    margin: 5%;
+}
+.resume{
+    border:solid 1px coral;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold; 
+    transition: .4s;
+}
+.resume:hover{
+    color: coral;
+    background: rgb(255, 255, 255);
 }
