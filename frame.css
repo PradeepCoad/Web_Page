@@ -110,23 +110,7 @@ nav ul li a:hover{
     text-decoration: none;
     color: black;
 }
-.college{
-    border: solid 2px white;
-    padding: 15px;
-    border-radius: 20px;
-    margin: 5%;
-}
-.college h3{
-    color: rgb(245, 188, 1);
-    letter-spacing: 1px;
-}
-.addcource{
-    border: solid 2px white;
-    padding: 15px;
-    border-radius: 20px;
-    margin: 5%;
-}
-.addcource h3{
-    color: rgb(245, 188, 1);
-    letter-spacing: 1px;
+.sublist{
+    border:none;
+    padding-left:30px;
 }
