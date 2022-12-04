@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family:'Josefin Sans','sans-serif';
-    background: linear-gradient(to bottom right, rgb(245, 6, 6),rgb(45, 144, 226));
+    background: linear-gradient(to bottom right, #dad1d1,#c4c9cc);
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -28,12 +28,12 @@ nav ul li {
 }
 nav ul li a{
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition: .3s;
 }
 nav ul li a:hover{
-    color: #252320;
+    color: #e70e0e;
 }
 .logo{
     height: 70px;
@@ -70,7 +70,7 @@ nav ul li a:hover{
 .content h1{
     margin-top: 1%;
     font-size: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(43, 43, 43);
     font-weight: 600;
     transition: .5s;
 }
@@ -78,25 +78,25 @@ nav ul li a:hover{
     margin-top: 1%;
     margin-left: 5%;
     font-size: 50px;
-    color: rgb(76, 193, 240);
+    color: #7076FE;
     font-weight: 600;
     transition: .5s;
 }
 .btn{
     font-family: 'consolas';
     font-size: 20px;  
-    color: #fff;
+    color: coral;
     margin-top: 5px;
     padding-bottom: 50px;
     padding: 7px 22px;
-    border: 1px solid coral;
+    border: 2px solid coral;
     border-radius: 25px;
     text-decoration: none;
     transition: .2s;
 }
 .btn:hover{
-    background:rgb(255, 255, 255);
-    color: coral;
+    background:coral;
+    color: rgb(255, 251, 249);
 }
 .abt{
     text-align: center;
@@ -122,7 +122,7 @@ nav ul li a:hover{
     transition: .2s;
 }
 .schooling h3{
-    color: rgb(245, 188, 1);
+    color: rgb(10, 154, 221);
     letter-spacing: 1px;
 }
 .schooling p a{
@@ -138,20 +138,75 @@ nav ul li a:hover{
     margin: 5%;
 }
 .resume{
-    border:solid 1px coral;
+    border:solid 2px coral;
     padding: 15px;
     border-radius: 30px;
-    color: white;
+    color: coral;
     font-size: 15px;
     text-decoration: none;
     font-weight: bold; 
     transition: .4s;
 }
 .resume:hover{
-    color: coral;
-    background: rgb(255, 255, 255);
+    color: white;
+    background: coral;
 }
-
+.cntapp{
+    text-align: center;
+    padding: 3%;
+    border: solid 2px white;
+    margin-left:110px;
+    margin-right:110px;
+    border-radius: 40px;
+}
+.wtsappicon{
+    height:50px;
+    margin-right: 10px;
+    transition: .2s;
+}
+.wtsappicon:hover{
+    transform: scale(1.5);
+}
+.instaicon{
+    height:50px;
+    margin-right: 10px;
+    transition: .2s;
+}
+.instaicon:hover{
+    transform: scale(1.5);
+}
+.linkedinicon{
+    height:50px;
+    margin-right: 10px;
+    transition: .2s;
+}
+.linkedinicon:hover{
+    transform: scale(1.5);
+}
+.teleicon{
+    height:50px;
+    margin-right: 10px;
+    transition: .2s;
+}
+.teleicon:hover{
+    transform: scale(1.5);
+}
+.mailicon{
+    height:50px;
+    margin-right: 10px;
+    transition: .2s;
+}
+.mailicon:hover{
+    transform: scale(1.5);
+}
+.telephoneicon{
+    height:50px;
+    margin-right: 10px;
+    transition: .2s;
+}
+.telephoneicon:hover{
+    transform: scale(1.5);
+}
 
 
 .note{
